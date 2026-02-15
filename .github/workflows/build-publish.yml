@@ -1,4 +1,4 @@
-name: Build and Publish Distroless exonerate
+name: Build and Publish exonerate
 
 on:
   push:
