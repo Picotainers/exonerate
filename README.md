@@ -1,7 +1,12 @@
 # exonerate
-Small compatibility-focused container for `exonerate`.
+Source-built container image for `exonerate`.
 
-## how to use
+## Quick Usage
+
 ```bash
-docker run --rm -v "$(pwd):/data" picotainers/exonerate:latest --help
+# Pull the image
+docker pull docker.io/picotainers/exonerate:latest
+
+# Run the tool
+docker run --rm -v "$(pwd):/data" docker.io/picotainers/exonerate:latest exonerate --help
 ```
